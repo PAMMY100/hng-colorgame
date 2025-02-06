@@ -8,11 +8,11 @@ import Start from './pages/Start'
 const App = () => {
   return (
     <div>
-      <Navbar />
       <Routes>
-        <Route path='/' element={<Start />}/>
-        <Route path='/' element={<HighScore />}/>
-        <Route path='/' element={<Instructions />}/>
+        <Route path='/' element={<Navbar />}/>
+        <Route path='/start' element={<Start />}/>
+        <Route path='/highscore' element={<HighScore />}/>
+        <Route path='/instruction' element={<Instructions />}/>
       </Routes>
     </div>
   )

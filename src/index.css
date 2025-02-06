@@ -3,7 +3,38 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
+  background-color: cadetblue;
 }
+
+.game-board {
+  display: flex;
+}
+
+.game-card {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.target-color {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.color-buttons button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
 
 a{
   text-decoration: none;
