@@ -45,7 +45,7 @@ ul li {
   margin: 20px auto;
   border-radius: 10px;
   border: 4px solid transparent; 
-  border-image: linear-gradient(45deg, #ff7e5f, #feb47b, #ff6a6a, #ffcc70); 
+  border-image: linear-gradient(45deg, blue, purple); 
   border-image-slice: 1; 
 }
 
@@ -149,7 +149,7 @@ a{
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  background: linear-gradient(90deg, indigo, violet); /* Rainbow gradient */
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
   background-clip: text;
   -webkit-text-fill-color: transparent; 
   display: inline-block;
