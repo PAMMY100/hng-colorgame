@@ -166,6 +166,17 @@ a{
 }
 
 @media (max-width: 600px) {
+  
+  .gradient-text {
+    font-size: 1.5rem;
+  }
+
+  .score {
+    height: 20px;
+    font-size: 20px;
+    width: 80px;
+  }
+
   .target-color {
     width: 100px;
     height: 100px;
