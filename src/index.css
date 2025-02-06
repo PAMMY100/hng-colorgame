@@ -43,8 +43,10 @@ ul li {
   width: 150px;
   height: 150px;
   margin: 20px auto;
-  border: 2px solid #000;
   border-radius: 10px;
+  border: 4px solid transparent; 
+  border-image: linear-gradient(45deg, #ff7e5f, #feb47b, #ff6a6a, #ffcc70); 
+  border-image-slice: 1; 
 }
 
 .color-buttons {
@@ -144,24 +146,24 @@ a{
 }
 
 .gradient-text {
-  font-size: 3rem; /* Adjust the size as needed */
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
-  background-clip: text; /* Clip the background to the text */
-  -webkit-text-fill-color: transparent; /* Make the text transparent */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  animation: reveal-text 4s steps(22) forwards; /* Adjust timing and steps */
+  animation: reveal-text 4s steps(22) forwards; 
 }
 
 @keyframes reveal-text {
   from {
-    width: 0; /* Start with no width (hidden) */
+    width: 0;
   }
   to {
-    width: 100%; /* Expand to full width (revealed) */
+    width: 100%; 
   }
 }
 
